@@ -1,2 +1,5 @@
 #!/bin/bash
-chmod g+r hello
+
+mkdir my_dir 
+chmod 751 my_dir
+ls -ld my_dir
